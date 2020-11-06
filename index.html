@@ -1,51 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Conectamos HTML con nuestro CSS-->
     <link rel="stylesheet" href="styles.css">
     <title>Sesión003</title>
 </head>
 <body>
-    <header class="container-header">
-        <h1>Matcha</h1>
-        <nav></nav>
-    </header>
-    <main>
-        <section>
-            <video
-    controls
-    poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg"
-  >
-    <source
-      type="video/webm"
-      src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm"
-    />
-    <source
-      type="video/mp4"
-      src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
-    />
-  </video>
-
-  <article class="publish">
-    <h3>Publique en su blog en minutos, no en horas.</h3>
-    <p>
-        Su blog es su activo más poderoso para construir, involucrar y retener una audiencia 
-        leal. Pero no tienes horas para crear contenido que puede funcionar 
-        o no. Con Matcha, publique instantáneamente desde nuestra biblioteca de más de 10,000 artículos 
-        escritos profesionalmente y cree su lista de correo electrónico más rápido con nuestra 
-        poderosa herramienta de conversión.
-    </p>
-    <form>
-      <p>Empiece a publicar hoy:</p>
-      <div>
-        <input type="text" placeholder="Enter email" />
-        <button>Iniciar mi prueba</button>
-      </div>
-    </form>
-  </article>
-        </section>
-    </main>
+    <!--Color del fondo de la página-->
+    <body style="background-color:#fffbf7;">
+      </body>
+    <!--Cabecera de la página principal-->
+    <section class="fixed-header">
+    <header class="header">
+        <!-- Logo con link a la página principal -->
+        <a href="/" class="logo">
+          <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Matcha"/>
+        </a>
+        <!-- Menú de navegación -->
+        <nav class="navbar">
+          <ul class="menu-item">
+            <li class="menu-item"><a href="">Plataforma</a>   </li>
+            <li class="menu-item"><a href="">Precios</a>      </li>
+            <li class="menu-item"><a href="">Clientes</a>     </li>
+            <li class="menu-item"><a href="">Recursos</a>     </li>
+            <li class="menu-item"><a href="">Acerca de</a>    </li>
+          </ul>
+        </nav>
+        <!-- Contenedor de acciones de usuario -->
+        <div class="actions">
+          <a>Sign In</a>
+          <button>Start free trial</button>
+        </div>
+      </header>
+    </section>
+    </br>
+      <!-- Contenedor de video -->
+      <section class="promo">
+      <article class="explanatory-video">
+      <video controls poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg"
+      >>
+      <source
+        type="video/webm"
+        src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm"
+      />
+      <source
+        type="video/mp4"
+        src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
+      />
+      </video>
+      <!--IMAGEN "SEE HOW IT WORKS"-->
+      <img
+            src="https://getmatcha.com/wp-content/themes/getmatcha/img/see_how_it_works.png"
+            alt="See how it works"
+          />
+    </article>
+        <!-- Contenido publicitario -->
+        <article class="publish">
+            <h3>Publique en su blog en minutos, no en horas.</h3>
+            <p>
+              Su blog es su activo más poderoso para construir, 
+              involucrar y retener una audiencia leal. 
+              Pero no tienes horas para crear contenido que puede funcionar o no. 
+              Con Matcha, publique instantáneamente desde nuestra biblioteca de más de 10,000 artículos 
+              escritos profesionalmente y cree su lista de correo electrónico más rápido con 
+              nuestra poderosa herramienta de conversión.
+            </p>
+            <form>
+              <p>Empiece a publicar hoy:</p>
+              <div class="actions2">
+                <input type="text" placeholder="Escriba su Email" /> 
+                <button>Iniciar mi prueba</button>
+              </div>
+            </form>
+          </article>
+      </section>
 </body>
 </html>
